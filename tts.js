@@ -89,10 +89,12 @@ const pitchContainer = () => {
     return container;
 }
 
-
+let a = 1
 //create blank drop down
 const voiceSelect = () => {
+    a=a+1
     const e = document.createElement('select');
+    rateInput.id = 'rate'+a; //for relating label
     return e;
 }
 
