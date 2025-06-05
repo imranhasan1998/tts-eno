@@ -1,4 +1,4 @@
-import { synth } from 'tts.js';
+import { synth } from './tts.js';
 
 
 function populateVoiceList() {
