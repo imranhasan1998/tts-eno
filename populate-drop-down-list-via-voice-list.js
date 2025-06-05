@@ -1,5 +1,4 @@
 import { synth, voiceSelect } from './tts.js';
-console.log(voiceSelect);
 
 
 function populateVoiceList() {
@@ -18,6 +17,8 @@ function populateVoiceList() {
 
         option.setAttribute("data-lang", voice.lang);
         option.setAttribute("data-name", voice.name);
+console.log(voiceSelect);
+        
         voiceSelect.appendChild(option);
     }
 }
