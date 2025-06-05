@@ -6,7 +6,7 @@ import { populateVoiceList } from './populate-drop-down-list-via-voice-list.js';
 // Wait for the HTML document to finish loading
 document.addEventListener('DOMContentLoaded', function () {
     // Append elements to the body of the HTML document
-    [pageHeading(), inputTxt(), rateContainer(), pitchContainer(), voiceSelect()]
+    [pageHeading(), inputTxt(), rateContainer(), pitchContainer(), voiceSelect]
         .forEach(el => document.body.appendChild(el));
 
 });
@@ -91,12 +91,8 @@ const pitchContainer = () => {
 
 let a = 1
 //create blank drop down
-const voiceSelect = () => {
-    a=a+1
-    const e = document.createElement('select');
-    e.id = 'rate'+a; //for relating label
-    return e;
-}
+const voiceSelect = document.createElement('select');
+  
 
 
 
