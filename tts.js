@@ -94,7 +94,7 @@ let a = 1
 const voiceSelect = () => {
     a=a+1
     const e = document.createElement('select');
-    rateInput.id = 'rate'+a; //for relating label
+    e.id = 'rate'+a; //for relating label
     return e;
 }
 
