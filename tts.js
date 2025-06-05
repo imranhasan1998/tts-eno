@@ -1,5 +1,5 @@
 // hello
-import { populateVoiceList } from '/populate-drop-down-list-via-voice-list.js';
+import { populateVoiceList } from './populate-drop-down-list-via-voice-list.js';
 
 
 // Wait for the HTML document to finish loading
