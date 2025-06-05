@@ -19,7 +19,7 @@ function populateVoiceList() {
         option.setAttribute("data-name", voice.name);
 console.log(voiceSelect());
         
-        voiceSelect.appendChild(option);
+        voiceSelect().appendChild(option);
     }
 }
 
