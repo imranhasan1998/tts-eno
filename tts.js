@@ -108,7 +108,7 @@ if (speechSynthesis.onvoiceschanged !== undefined) {
     speechSynthesis.onvoiceschanged = populateVoiceList;
 }
 
-export {synth};
+export {synth, voiceSelect};
 
 
 
