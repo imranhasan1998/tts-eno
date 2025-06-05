@@ -91,7 +91,10 @@ const pitchContainer = () => {
 
 
 //create blank drop down
-const voiceSelect = document.createElement('select');
+const voiceSelect = () => {
+    const e = document.createElement('select');
+    return e;
+}
 
 
 
